@@ -1,0 +1,10 @@
+@font-face { /* locally loading font, converted to woff and woff2 */
+  font-family: "Norse-Bold";
+  src: url("/Assets/fonts/Norse-Bold.woff2") format('woff2'),
+  url("Assets/fonts/Norse-Bold.woff") format('woff'),
+  url("Assets/fonts/Norse-Bold.otf") format('opentype'),
+}
+
+* {
+  font-family: "Norse-Bold";
+}
