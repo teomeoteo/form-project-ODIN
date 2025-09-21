@@ -43,7 +43,7 @@ a {
   background-color: var(--dark-overlay);
   height: 120px;
   padding: 11px 0;
-  margin-top: calc(100vh / 4)
+  margin-top: calc(100vh / 5)
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
   align-self: center;
   font-size: 0.8rem;
   margin-bottom: 5px;
-  opacity: 0.85;
+  opacity: 0.8;
   word-spacing: 1px;
 }
 
@@ -70,4 +70,46 @@ h1 {
 
 form {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  background-color: #fcfcfc;
+}
+
+section {
+  flex-grow: 1;
+}
+
+.form-row {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 8px 10px -2px rgb(212, 212, 212);
+  background-color: #FFF;
+  padding: 20px 50px;
+  color: rgb(87, 87, 87);
+  justify-content: space-around;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  color: rgb(135, 135, 135);
+  font-weight: bold;
+}
+
+.input-field input {
+  width: 230px;
+  height: 30px;
+  border-style:outset;
+  border: 1px solid;
+  border-color:#c0c0c0;
+  border-radius: 3px;
 }
